@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator Project</title>
+  <link rel="stylesheet" type="text/css" href="style/cal.css">
+  <script src="js/calc.js"></script>
+  <link rel="icon" type="image/x-icon" href="gallery/cal-icon.jpg">
+</head>
+
+<body>
+  <header>
+    <h1>Calculator</h1>
+    <h5 id="subheading"> By Agrim Sharma </h5>
+  </header>
+  <table>
+    <tr>
+      <td><button type="button" value="C" onclick="clr()">C</button> </td>
+      <td colspan="3"><input type="text" name="Enter a value" id="dis"> </td>
+    </tr>
+    <tr>
+      <td><button type="button" value="+" onclick="dis('+')">+</button></td>
+      <td><button type="button" value="1" onclick="dis('1')">1</button></td>
+      <td><button type="button" value="2" onclick="dis('2')">2</button></td>
+      <td><button type="button" value="3" onclick="dis('3')">3</button></td>
+    </tr>
+    <tr>
+      <td><button type="button" value="-" onclick="dis('-')">-</button></td>
+      <td><button type="button" value="4" onclick="dis('4')">4</button></td>
+      <td><button type="button" value="5" onclick="dis('5')">5</button></td>
+      <td><button type="button" value="6" onclick="dis('6')">6</button></td>
+    </tr>
+    <tr>
+      <td><button type="button" value="*" onclick="dis('*')">*</button></td>
+      <td><button type="button" value="7" onclick="dis('7')">7</button></td>
+      <td><button type="button" value="8" onclick="dis('8')">8</button></td>
+      <td><button type="button" value="9" onclick="dis('9')">9</button></td>
+    </tr>
+    <tr>
+      <td><button type="button" value="/" onclick="dis('/')">/</button></td>
+      <td><button type="button" value="." onclick="dis('.')">.</button></td>
+      <td><button type="button" value="0" onclick="dis('0')">0</button></td>
+      <td><button type="button" value="=" onclick="solve()">=</button></td>
+    </tr>
+  </table>
+  <footer>
+    <h6>&copy; agrimsharma</h6>
+  </footer>
+</body>
+
+</html>
