@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  font-size: 150%;
+  font-size: 2vw;
   color: white;
   padding: 1%;
   font-family: Times, "Lucida Console";
@@ -8,22 +8,27 @@ header {
   border-bottom: 3px black solid;
 }
 #subheading {
-  font-size: 50%;
+  font-size: 1vw;
 }
 html {
-  border: 5px solid white;
-  border-radius: 15px;
-  padding: 2%;
+  background-color: white;
+  height: 50vw;
+  width: 95%;
 }
 body {
-  background-image: linear-gradient(-45deg, #43c6ac, #191654);
+  background: linear-gradient(-45deg, #43c6ac, #191654);
+  padding:2px ;
+  border: 5px solid white;
+  border-radius: 15px;
+  height: 70vw;
+  width: 103%;
 }
 table {
   margin: auto;
   padding: 11.5%;
   border: 1px solid transparent;
-  height: 300%;
-  width: 50%;
+  height: 40vw;
+  width: 50vw;
 }
 button {
   margin: auto;
